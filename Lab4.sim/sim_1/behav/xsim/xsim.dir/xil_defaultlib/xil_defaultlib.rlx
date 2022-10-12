@@ -1,0 +1,23 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.sim/sim_1/behav/xsim/glbl.v,1662082991,verilog,,,,glbl,,,,,,,,
+D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sim_1/new/testbench.v,1665409229,verilog,,,,testbench,,,,,,,,
+D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/ip/data_mem/sim/data_mem.v,1662082992,verilog,,D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/ip/inst_mem/sim/inst_mem.v,,data_mem,,,,,,,,
+D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/ip/inst_mem/sim/inst_mem.v,1664984560,verilog,,D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/adder.v,,inst_mem,,,,,,,,
+D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/adder.v,1662082992,verilog,,D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/alu.v,,adder,,,,,,,,
+D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/alu.v,1662082992,verilog,,D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/aludec.v,,alu,,,,,,,,
+D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/aludec.v,1662082992,verilog,,D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/branchPredict.v,,aludec,,,,,,,,
+D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/branchPredict.v,1665497389,verilog,,D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/clk_div.v,,branchPredict,,,,,,,,
+D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/clk_div.v,1662082992,verilog,,D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/controller.v,,clk_div,,,,,,,,
+D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/controller.v,1665487834,verilog,,D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/datapath.v,,controller,,,,,,,,
+D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/datapath.v,1665492822,verilog,,D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/flopenrc.v,,datapath,,,,,,,,
+D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/flopenrc.v,1662082992,verilog,,D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/hazard.v,,flopenrc,,,,,,,,
+D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/hazard.v,1662082992,verilog,,D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/maindec.v,,hazard,,,,,,,,
+D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/maindec.v,1662082992,verilog,,D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/mux2.v,,maindec,,,,,,,,
+D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/mux2.v,1662082992,verilog,,D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/mux3.v,,mux2,,,,,,,,
+D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/mux3.v,1662082992,verilog,,D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/pc.v,,mux3,,,,,,,,
+D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/pc.v,1662082992,verilog,,D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/regfile.v,,pc,,,,,,,,
+D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/regfile.v,1662082992,verilog,,D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/top.v,,regfile,,,,,,,,
+D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sources_1/new/top.v,1662082992,verilog,,D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sim_1/new/testbench.v,,top,,,,,,,,

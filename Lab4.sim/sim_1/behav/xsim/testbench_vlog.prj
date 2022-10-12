@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Lab4.srcs/sources_1/ip/data_mem/sim/data_mem.v" \
+"../../../../Lab4.srcs/sources_1/ip/inst_mem/sim/inst_mem.v" \
+"../../../../Lab4.srcs/sources_1/new/adder.v" \
+"../../../../Lab4.srcs/sources_1/new/alu.v" \
+"../../../../Lab4.srcs/sources_1/new/aludec.v" \
+"../../../../Lab4.srcs/sources_1/new/branchPredict.v" \
+"../../../../Lab4.srcs/sources_1/new/clk_div.v" \
+"../../../../Lab4.srcs/sources_1/new/controller.v" \
+"../../../../Lab4.srcs/sources_1/new/datapath.v" \
+"../../../../Lab4.srcs/sources_1/new/flopenrc.v" \
+"../../../../Lab4.srcs/sources_1/new/hazard.v" \
+"../../../../Lab4.srcs/sources_1/new/maindec.v" \
+"../../../../Lab4.srcs/sources_1/new/mux2.v" \
+"../../../../Lab4.srcs/sources_1/new/mux3.v" \
+"../../../../Lab4.srcs/sources_1/new/pc.v" \
+"../../../../Lab4.srcs/sources_1/new/regfile.v" \
+"../../../../Lab4.srcs/sources_1/new/top.v" \
+"../../../../Lab4.srcs/sim_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

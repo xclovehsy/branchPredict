@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu May 12 22:31:06 2022
+# Process ID: 12560
+# Current directory: D:/ComputerCode/Verilog/Semester04/Lab4/Lab4.runs/data_mem_synth_1
+# Command line: vivado.exe -log data_mem.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source data_mem.tcl
+# Log file: D:/ComputerCode/Verilog/Semester04/Lab4/Lab4.runs/data_mem_synth_1/data_mem.vds
+# Journal file: D:/ComputerCode/Verilog/Semester04/Lab4/Lab4.runs/data_mem_synth_1\vivado.jou
+#-----------------------------------------------------------
+source data_mem.tcl -notrace

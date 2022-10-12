@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="3509727750fs"></ZoomEndTime>
+      <Cursor1Time time="970000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="89"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="33" />
+   <wvobject fp_name="/testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/writedata" type="array">
+      <obj_property name="ElementShortName">writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writedata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dataadr" type="array">
+      <obj_property name="ElementShortName">dataadr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataadr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/readdata" type="array">
+      <obj_property name="ElementShortName">readdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/instr" type="array">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/RsD" type="array">
+      <obj_property name="ElementShortName">RsD[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RsD[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/RtD" type="array">
+      <obj_property name="ElementShortName">RtD[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RtD[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/alu/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/bp/LPHT" type="array">
+      <obj_property name="ElementShortName">LPHT[63:0][1:0]</obj_property>
+      <obj_property name="ObjectShortName">LPHT[63:0][1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/bp/BHT" type="array">
+      <obj_property name="ElementShortName">BHT[7:0][2:0]</obj_property>
+      <obj_property name="ObjectShortName">BHT[7:0][2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/bp/GPHT" type="array">
+      <obj_property name="ElementShortName">GPHT[63:0][1:0]</obj_property>
+      <obj_property name="ObjectShortName">GPHT[63:0][1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/bp/GHR" type="array">
+      <obj_property name="ElementShortName">GHR[5:0]</obj_property>
+      <obj_property name="ObjectShortName">GHR[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/BranchD" type="logic">
+      <obj_property name="ElementShortName">BranchD</obj_property>
+      <obj_property name="ObjectShortName">BranchD</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/JumpD" type="logic">
+      <obj_property name="ElementShortName">JumpD</obj_property>
+      <obj_property name="ObjectShortName">JumpD</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/PCSrcD" type="logic">
+      <obj_property name="ElementShortName">PCSrcD</obj_property>
+      <obj_property name="ObjectShortName">PCSrcD</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/branchPreD" type="logic">
+      <obj_property name="ElementShortName">branchPreD</obj_property>
+      <obj_property name="ObjectShortName">branchPreD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/JumpD" type="logic">
+      <obj_property name="ElementShortName">JumpD</obj_property>
+      <obj_property name="ObjectShortName">JumpD</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/jumpPreD" type="logic">
+      <obj_property name="ElementShortName">jumpPreD</obj_property>
+      <obj_property name="ObjectShortName">jumpPreD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/bp/preRe" type="logic">
+      <obj_property name="ElementShortName">preRe</obj_property>
+      <obj_property name="ObjectShortName">preRe</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/bp/clear" type="logic">
+      <obj_property name="ElementShortName">clear</obj_property>
+      <obj_property name="ObjectShortName">clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/bp/PCVal" type="array">
+      <obj_property name="ElementShortName">PCVal[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCVal[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/bp/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/bp/JumpOrBranchF" type="logic">
+      <obj_property name="ElementShortName">JumpOrBranchF</obj_property>
+      <obj_property name="ObjectShortName">JumpOrBranchF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/bp/p1" type="logic">
+      <obj_property name="ElementShortName">p1</obj_property>
+      <obj_property name="ObjectShortName">p1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/bp/p2" type="logic">
+      <obj_property name="ElementShortName">p2</obj_property>
+      <obj_property name="ObjectShortName">p2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/bp/P1M" type="logic">
+      <obj_property name="ElementShortName">P1M</obj_property>
+      <obj_property name="ObjectShortName">P1M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/bp/P2M" type="logic">
+      <obj_property name="ElementShortName">P2M</obj_property>
+      <obj_property name="ObjectShortName">P2M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/bp/realSig" type="logic">
+      <obj_property name="ElementShortName">realSig</obj_property>
+      <obj_property name="ObjectShortName">realSig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/bp/p1r" type="logic">
+      <obj_property name="ElementShortName">p1r</obj_property>
+      <obj_property name="ObjectShortName">p1r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/bp/p2r" type="logic">
+      <obj_property name="ElementShortName">p2r</obj_property>
+      <obj_property name="ObjectShortName">p2r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/bp/CPHT" type="array">
+      <obj_property name="ElementShortName">CPHT[1:0]</obj_property>
+      <obj_property name="ObjectShortName">CPHT[1:0]</obj_property>
+   </wvobject>
+</wave_config>
