@@ -36,5 +36,3 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ComputerCode/ComputerArchitectur
 INFO: [VRFC 10-311] analyzing module top
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.srcs/sim_1/new/testbench.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module testbench
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ComputerCode/ComputerArchitecture/branchPredict/Lab4/Lab4.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl

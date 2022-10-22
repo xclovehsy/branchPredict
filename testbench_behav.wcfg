@@ -12,11 +12,11 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="3509727750fs"></ZoomEndTime>
-      <Cursor1Time time="970000000fs"></Cursor1Time>
+      <ZoomEndTime time="2652000001fs"></ZoomEndTime>
+      <Cursor1Time time="2064000000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="89"></NameColumnWidth>
+      <NameColumnWidth column_width="125"></NameColumnWidth>
       <ValueColumnWidth column_width="72"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="33" />
@@ -69,6 +69,39 @@
    <wvobject fp_name="/testbench/dut/dp/bp/BHT" type="array">
       <obj_property name="ElementShortName">BHT[7:0][2:0]</obj_property>
       <obj_property name="ObjectShortName">BHT[7:0][2:0]</obj_property>
+      <wvobject fp_name="/testbench/dut/dp/bp/BHT[7]" type="array">
+         <obj_property name="ElementShortName">[7][2:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/dp/bp/BHT[6]" type="array">
+         <obj_property name="ElementShortName">[6][2:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/dp/bp/BHT[5]" type="array">
+         <obj_property name="ElementShortName">[5][2:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/dp/bp/BHT[4]" type="array">
+         <obj_property name="ElementShortName">[4][2:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/dp/bp/BHT[3]" type="array">
+         <obj_property name="ElementShortName">[3][2:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/dp/bp/BHT[2]" type="array">
+         <obj_property name="ElementShortName">[2][2:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/dp/bp/BHT[1]" type="array">
+         <obj_property name="ElementShortName">[1][2:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/dp/bp/BHT[0]" type="array">
+         <obj_property name="ElementShortName">[0][2:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][2:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
    </wvobject>
    <wvobject fp_name="/testbench/dut/dp/bp/GPHT" type="array">
       <obj_property name="ElementShortName">GPHT[63:0][1:0]</obj_property>
@@ -77,6 +110,13 @@
    <wvobject fp_name="/testbench/dut/dp/bp/GHR" type="array">
       <obj_property name="ElementShortName">GHR[5:0]</obj_property>
       <obj_property name="ObjectShortName">GHR[5:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/dp/bp/JumpOrBranchF" type="logic">
+      <obj_property name="ElementShortName">JumpOrBranchF</obj_property>
+      <obj_property name="ObjectShortName">JumpOrBranchF</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
    </wvobject>
    <wvobject fp_name="/testbench/dut/dp/BranchD" type="logic">
       <obj_property name="ElementShortName">BranchD</obj_property>
@@ -127,10 +167,6 @@
    <wvobject fp_name="/testbench/dut/dp/bp/en" type="logic">
       <obj_property name="ElementShortName">en</obj_property>
       <obj_property name="ObjectShortName">en</obj_property>
-   </wvobject>
-   <wvobject fp_name="/testbench/dut/dp/bp/JumpOrBranchF" type="logic">
-      <obj_property name="ElementShortName">JumpOrBranchF</obj_property>
-      <obj_property name="ObjectShortName">JumpOrBranchF</obj_property>
    </wvobject>
    <wvobject fp_name="/testbench/dut/dp/bp/p1" type="logic">
       <obj_property name="ElementShortName">p1</obj_property>

@@ -53,7 +53,7 @@ module branchPredict(
         end
 
         for(i = 0; i<64; i=i+1) begin
-            LPHT[i] <= 2'b01;
+            LPHT[i] <= 2'b11;
         end
 
         for(i = 0; i<64; i=i+1) begin
@@ -66,7 +66,7 @@ module branchPredict(
     // ======================================================
 
     // hash reflect
-    wire[2:0] Ghash = PCPredict[5:0];
+    wire[5:0] Ghash = PCPredict[5:0];
 
     // get GPHT index  通过异或的方式索引GPHT
     wire [5:0] idxGPHT = Ghash ^ GHR;
@@ -128,7 +128,7 @@ module branchPredict(
     // ======================================================
     
     reg [5:0] idxGPHTBack;
-    wire [2:0] hashBack = PC[5:0];
+    wire [5:0] hashBack = PC[5:0];
     wire en = jump || branch;
     wire jumpReal = preRe ? jumpPre: ~jumpPre;
     wire branchReal = preRe ? branchPre: ~branchPre;
