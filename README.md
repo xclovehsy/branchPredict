@@ -16,7 +16,7 @@
 
 本次实验实现的分支预测功能基于上学期实现的五级流水线CPU。因此我在五级流水线CPU的基础上实现了branchPredict分支预测模块。本次实验我实现的是**竞争的分支指令方向预测**，CPU线路图如下图所示。
 
-![img](https://xc-figure.oss-cn-hangzhou.aliyuncs.com/img/clip_image002.png)
+![img](https://xc-figure.oss-cn-hangzhou.aliyuncs.com/img/20221022161921.png)
 
  
 
@@ -26,7 +26,7 @@
 
 在基于局部分支预测中我所采用的是将pc值hash映射成3bit的数值进行BHT表的索引，因此BHT共有8个表项，每一项有3bit宽，记录PC值对应的3次分支历史。再将3bit宽的BHR值与PC的3bit的hash值进行拼接共6bit作为PHT的索引值。这里PHT是基于2位的饱和计数器，因此PHT位2bit宽共64项的寄存器。映射关系如下图所示。
 
-![img](https://xc-figure.oss-cn-hangzhou.aliyuncs.com/img/clip_image004.png)
+![img](https://xc-figure.oss-cn-hangzhou.aliyuncs.com/img/20221022161948.png)
 
 #### 2.1.1. fetch阶段
 
@@ -145,7 +145,7 @@ reg [5:0] idxLPHTBack;
 
  
 
-![img](https://xc-figure.oss-cn-hangzhou.aliyuncs.com/img/clip_image006.png)
+![img](https://xc-figure.oss-cn-hangzhou.aliyuncs.com/img/20221022161956.png)
 
 对于预测错误的修复所采用的是提交阶段修复法。在提交阶段放置一个 GHR（被称作 Retired GHR）。只有当分支指令进入到提交阶段时，才更新这个 GHR，如果在提交阶段发现分支预测错误，那么此时预测阶段的 GHR 的内容是错误的，此时我们就可以将 Retired GHR 内的值写入到预测阶段的 GHR 中。
 
@@ -232,7 +232,7 @@ end
 
 基于局部历史的分支预测和基于全局历史的分支预测各有优缺点，对于不同特征的分支指令，它们预测的效果不同，因此需要根据分支指令的特征来选择预测方法。就像是两种预测方法在相互竞争一样。
 
-![img](https://xc-figure.oss-cn-hangzhou.aliyuncs.com/img/clip_image008.png)
+![img](https://xc-figure.oss-cn-hangzhou.aliyuncs.com/img/20221022162003.png)
 
 CPHT中的两位饱和计数器状态机如下图：
 
@@ -241,7 +241,7 @@ CPHT中的两位饱和计数器状态机如下图：
 - 当P1预测错误，P2预测正确时，计数器加1；
 - 当P1、P2预测的结果一样时，不管对不对，计数器不变；
 
-![img](https://xc-figure.oss-cn-hangzhou.aliyuncs.com/img/clip_image010.png)
+![img](https://xc-figure.oss-cn-hangzhou.aliyuncs.com/img/20221022162007.png)
 
 当计数器位于饱和的00、01态时，使用P1预测；位于饱和的11、10态时，使用P2预测。所以，竞争的分支预测法其实是一种两级自适应算法，第一级预测分支指令的特征，第二级预测分支指令的方向。
 
